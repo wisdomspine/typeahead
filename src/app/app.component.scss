@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+
+  input {
+    width: min(100%, 240px);
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .content-area {
+    align-self: stretch;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    h1 {
+      text-align: center;
+    }
+    table img {
+      height: 64px;
+      width: 64px;
+      object-fit: cover;
+    }
+  }
+}
